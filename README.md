@@ -1,17 +1,8 @@
 # 📊 Prism Insurance Power BI Dashboard
 
-An end-to-end Insurance Analytics project built using SQL Server, Excel, Power Query, Power BI, DAX, and Power BI Service to transform raw insurance data into interactive business reports and actionable insights.
+An end-to-end Insurance Analytics project built using SQL Server, Excel, Power Query, Power BI, DAX, and Power BI Service to transform raw insurance data into actionable business insights through interactive reporting, drill-through analysis, and customer sentiment analysis.
 
----
-
-## 🚀 Project Overview
-
-This project analyzes insurance policy, customer, claims, and sentiment data through an interactive multi-page Power BI report featuring drillthrough analysis and automated cloud refresh.
-
----
-
-## 🛠️ Tech Stack
-
+## 🚀 Tech Stack
 - SQL Server
 - SQL
 - Excel
@@ -20,70 +11,63 @@ This project analyzes insurance policy, customer, claims, and sentiment data thr
 - DAX
 - Power BI Service
 
----
-
-## 📂 Project Workflow
-
-1. Created **InsuranceDB** in SQL Server and imported the insurance dataset.
-2. Performed data preparation and validation using Excel and Power Query.
-3. Built an interactive multi-page Power BI report with KPIs and business insights.
-4. Implemented drillthrough functionality for detailed product-level analysis.
-5. Performed customer sentiment analysis using sentiment scores and word cloud visualizations.
-6. Published the report to Power BI Service and configured a daily scheduled refresh.
-
----
+## 📌 Project Workflow
+- Created `InsuranceDB` in SQL Server and imported the insurance dataset.
+- Performed data validation and transformation using Power Query.
+- Developed a multi-page interactive Power BI report.
+- Implemented drill-through functionality for detailed policy-level analysis.
+- Integrated customer feedback sentiment analysis using custom sentiment scores and word cloud visualization.
+- Published the report to Power BI Service with scheduled daily refresh.
 
 ## 📈 Key Features
-
-✔ End-to-End ETL Pipeline  
 ✔ SQL Server Integration  
-✔ Data Cleaning & Transformation  
-✔ Interactive KPI Dashboard  
-✔ Drillthrough Analysis  
+✔ ETL using Power Query  
+✔ Interactive Drill-through Reporting  
 ✔ Customer Sentiment Analysis  
-✔ Automated Daily Refresh in Power BI Service  
+✔ Automated Daily Refresh  
+✔ Multi-page Business Intelligence Reporting  
 
----
+## 📷 Dashboard Preview
 
-## 📊 Business Insights Delivered
+### Main Dashboard
+![Main Dashboard](ScreenShots/PowerBI%20Report%20page%201.png)
 
-- Policy and product performance analysis
-- Customer and claim trends
-- Sentiment analysis from customer feedback
-- Interactive exploration through drillthrough reporting
-- Automated and up-to-date business reporting
+### Drill-through Analysis
+![Drill-through Analysis](ScreenShots/Power%20BI%20Report%20page%202.png)
 
----
+### Customer Sentiment Analysis
+![Customer Sentiment Analysis](ScreenShots/Power%20BI%20Report%20page%203.png)
 
-## 📁 Repository Structure
+### Power BI Service Deployment
+![Power BI Service](ScreenShots/Workspace%20Prism%20Insurance.png)
+
+## 📂 Repository Structure
 
 ```text
-Prism-Insurance-PowerBI-Dashboard/
+Prism-Insurance-PowerBI-Dashboard
 │
-├── Data/
+├── Data
 │   ├── InsuranceData.csv
 │   └── Insurance_Customer_Feedback_Sentiment_0_to_1.xlsx
 │
-├── SQL/
+├── Power BI
+│   └── Prism Insurance.pbix
+│
+├── SQL
 │   └── InsuranceDatabase.sql
 │
-├── Power BI/
-│   └── Prism Insurance.pbix
+├── ScreenShots
+│   ├── PoowerBI Report page 1.png
+│   ├── Power BI Report page 2.png
+│   ├── Power BI Report page 3.png
+│   └── Workspace Prism Insurance.png
 │
 └── README.md
 ```
 
----
-
 ## 🎯 Skills Demonstrated
+`SQL` • `ETL` • `Power Query` • `DAX` • `Data Modeling` • `Data Visualization` • `Business Intelligence` • `Power BI Service`
 
-**SQL • Data Cleaning • Power Query • Data Modeling • DAX • Data Visualization • Business Intelligence • Dashboard Development • Report Deployment**
-
----
-
-## 👤 Author
-
+## 👨‍💻 Author
 **Urva Gala**  
 Aspiring Data Analyst | SQL | Power BI | Python | Excel
-
-[LinkedIn](YOUR_LINKEDIN_URL) • [GitHub](https://github.com/UrvaGala)
